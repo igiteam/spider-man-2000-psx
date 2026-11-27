@@ -1,9 +1,11 @@
-# spider-man-2000-animated-series
-# Spider-Man 2000 animated series
+# spider-man-2000-psx
+# Spider-Man 2000 PSX
 
 [![Spider-Man The Animated Series](https://i.ytimg.com/vi/b-CjhnrR0jw/hqdefault.jpg)](https://ytembed.macosxjs.com/?dHoxeFo3Y0NCNzQ)
 
 [![Spider-Man 2000](https://raw.githubusercontent.com/igiteam/spider-man-2000-animated-series/refs/heads/master/spider-man-2000.jpeg)](https://raw.githubusercontent.com/igiteam/spider-man-2000-animated-series/refs/heads/master/spider-man-2000.jpeg)
+
+[![Spider-ManPS1](https://img.youtube.com/vi/bIFkpDL6ZRk/maxresdefault.jpg)](https://ytembed.macosxjs.com/?YklGa3BETDZaUms)
 
 # OpenSpideyPS1
 
