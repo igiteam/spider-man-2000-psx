@@ -5,7 +5,9 @@
 
 [![Spider-Man 2000](https://raw.githubusercontent.com/igiteam/spider-man-2000-animated-series/refs/heads/master/spider-man-2000.jpeg)](https://raw.githubusercontent.com/igiteam/spider-man-2000-animated-series/refs/heads/master/spider-man-2000.jpeg)
 
-[![Spider-ManPS1](https://img.youtube.com/vi/bIFkpDL6ZRk/maxresdefault.jpg)](https://ytembed.macosxjs.com/?YklGa3BETDZaUms)
+[![Spider-Man PS1](https://img.youtube.com/vi/bIFkpDL6ZRk/hqdefault.jpg)](https://ytembed.macosxjs.com/?YklGa3BETDZaUms)
+
+[![Spiderman The Animated Series OST](https://img.youtube.com/vi/6DuEG5yTMuw/hqdefault.jpg)](https://ytembed.macosxjs.com/?NkR1RUc1eVRNdXc)
 
 # OpenSpideyPS1
 
