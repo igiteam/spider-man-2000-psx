@@ -1,0 +1,47 @@
+#pragma once
+
+#ifndef SPIDEYDX_H
+#define SPIDEYDX_H
+
+#include "export.h"
+#include "non_win32.h"
+
+EXPORT extern i32 gRenderTest;
+
+EXPORT extern i32 gGameResolutionX;
+EXPORT extern i32 gGameResolutionY;
+
+EXPORT extern u32 gDxResolutionX;
+EXPORT extern u32 gDxResolutionY;
+
+EXPORT extern u8 gMMXSupport;
+EXPORT extern u8 g3DAccelator;
+
+EXPORT void BuildTwiddleTable(void);
+EXPORT void CalcUntwiddledPos(u32,u32,u32,u32);
+EXPORT void ComputeMaskShift(u32,u32,u32 *,u32 *);
+EXPORT void SPIDEYDX_DisplayDeviceSettings(char *);
+EXPORT void SPIDEYDX_LoadSettings(void);
+EXPORT void SPIDEYDX_SaveSettings(void);
+EXPORT void SPIDEYDX_Shutdown(void);
+EXPORT void DXERR_printf(const char*, ...);
+
+EXPORT LRESULT CALLBACK SpideyWndProc(HWND, UINT, WPARAM, LPARAM);
+EXPORT i32 WinYield(void);
+
+EXPORT void debugSettings(void);
+EXPORT i32 mipmapOffset(u32,u32,f32);
+EXPORT void parseCommandLine(char *);
+
+u16* PVR_ConvertTwiddledToBMP(i32, i32, const u16*, i32);
+u16* PVR_ConvertVQToBMP(i32, i32, const u16*, i32);
+
+EXPORT i32 WINAPI RealWinMain(HINSTANCE, HINSTANCE, LPSTR, i32);
+
+EXPORT extern HWND gHwnd;
+
+EXPORT extern i32 gBrightnessRelated;
+EXPORT void validate_TwiddleStuff(void);
+
+
+#endif

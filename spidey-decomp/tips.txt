@@ -1,0 +1,72 @@
+- ghidra-psx-loader has wrong alignment for structs
+- gcc operators here: https://github.com/gcc-mirror/gcc/blob/1b84dc3709f339801f34093ccece9f484ff2b60e/gcc/cp/operators.def
+- jumping is to code further away
+- loop condition is the condition before the loop and at the end of the loop block
+- composed if statements will change register allocation
+- it's really easy to trip up the msvc optimizer
+
+code like 
+
+```
+int x = this->x;
+
+if (x == 1){
+  do_smth();
+  }
+
+  if (x == -1){
+    do_other();
+  }
+```
+
+is compiled to
+
+```
+switch(this->x) {
+  case 1:
+    do_smth();
+    break;
+  case -1:
+    do_other();
+    break;
+}
+```
+
+
+
+while 
+
+```
+int x = this->x;
+
+if (this->x == 1){
+  do_smth();
+}
+
+if (x == -1){
+  do_other();
+}
+
+```
+
+is compiled to
+
+```
+int x = this->x;
+
+if (x == 1){
+  do_smth();
+}
+
+if (x == -1){
+  do_other();
+}
+
+```
+
+worse code
+
+- classes/structures with other inner structures/arrays will have weird indexing (i.e SEntry in CMenu)
+
+
+using structures/classes can change code gen - check Utils_turnsTowards, it was using eax,cx on the += and -= statements with i16 but when replace with CSVector it fixed it.
