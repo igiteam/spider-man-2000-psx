@@ -1,3 +1,10 @@
+# spider-man-2000-animated-series
+# Spider-Man 2000 animated series
+
+[![Spider-Man The Animated Series](https://img.youtube.com/vi/tz1xZ7cCB74/maxresdefault.jpg)](https://ytembed.macosxjs.com/?dHoxeFo3Y0NCNzQ)
+
+[![Spider-Man 2000](https://raw.githubusercontent.com/igiteam/spider-man-2000-animated-series/refs/heads/master/spider-man-2000.jpeg)](https://raw.githubusercontent.com/igiteam/spider-man-2000-animated-series/refs/heads/master/spider-man-2000.jpeg)
+
 # OpenSpideyPS1
 
 > [!WARNING]
